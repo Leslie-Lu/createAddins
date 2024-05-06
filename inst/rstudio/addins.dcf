@@ -1,0 +1,5 @@
+Name: Insert %<>%
+Description: Inserts `%<>%` at the cursor position.
+Binding: insertPipeOperator
+Interactive: false
+
