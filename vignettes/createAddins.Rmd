@@ -1,0 +1,34 @@
+---
+title: "createAddins"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{createAddins}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(createAddins)
+```
+
+# Introduction
+
+The package will be useful for R users who want to create their own addins but are not familiar with the RStudio API. The package provides a set of functions that can be used to create addins with minimal effort.
+
+# Usage
+
+The `insertPipeOperator` function helps you create addin of \code{%<>%} for RStudio.
+
+```{r, eval=FALSE}
+insertPipeOperator()
+```
+
+
+
